@@ -1,0 +1,164 @@
+body {
+  background: #F0E2DA;
+}
+
+
+
+
+/* Navigation Bar Style */
+
+nav {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  height: 100px;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+
+}
+
+ul li {
+  width: 100%;
+  padding-top: 29px;
+
+
+}
+
+ul div:last-child{
+  margin-left:auto;
+}
+
+.info {
+ top: 44px;
+ left: 1253px;
+ height:auto;
+}
+
+
+.infoline {
+  opacity: 0;
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+}
+
+.infobutton:hover .infoline{
+  opacity: 1;
+  text-align: right;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  transition: 0.3s all ease-in-out 0s;
+}
+
+
+.container {
+ top: 30px;
+ height: 62px;
+ width: 164px;
+ position: absolute;
+ margin: auto;
+ left: 37px;
+ opacity: 1;
+ transition: 0.3s all ease-in-out 0s;
+ -webkit-transition: 0.3s all ease-in-out 0s;
+}
+
+.logo2 {
+  top: -8px;
+  height: 198px;
+  width: 158px;
+  position: absolute;
+  margin: auto;
+  left: 28px;
+  opacity: 0;
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+}
+
+.container:hover {
+  opacity: 0;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  transition: 0.3s all ease-in-out 0s;
+}
+.logo2:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  transition: 0.3s all ease-in-out 0s;
+}
+
+
+
+
+
+/* Photo Row 2 */
+.randompic {
+  display: flex;
+
+  max-width: 100%;
+  height: auto;
+  padding-left: 65px;
+  padding-top: 200px;
+  position: absolute;
+
+}
+
+ div.randompic{
+   -webkit-box-flex: auto;
+   -ms-flex: auto;
+   flex: auto;
+   max-width:100%;
+
+}
+
+
+
+
+
+/* Photo Row 3 */
+
+.infotext {
+  z-index: -1;
+  padding-left: 115px;
+  padding-top: 225px;
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ div.infotext{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+
+
+@@media screen and (max-width: 400px) {
+  .infotext {
+    margin: 0;
+  }
+  .infotext {
+    padding: 0;
+  }
+
+}
+
+
+
+
+
+
+
+.copyright{
+  top: 800px;
+  height: 14px;
+  width: 228px;
+  position: absolute;
+  margin: auto;
+  left: 30px;
+}
